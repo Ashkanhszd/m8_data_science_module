@@ -13,7 +13,7 @@ Los notebooks están alojados en GitHub y pueden abrirse directamente en Google 
 5. Descarga o guarda los resultados que quieras conservar, ya que el almacenamiento temporal de Colab se elimina al finalizar la sesión.
 
 > [!IMPORTANT]
-> Antes de publicar el repositorio, sustituye `YOUR_GITHUB_USERNAME` en los enlaces siguientes por el nombre del usuario o de la organización de GitHub donde se aloje el repositorio.
+> Antes de publicar el repositorio, sustituye `Ashkanhszd` en los enlaces siguientes por el nombre del usuario o de la organización de GitHub donde se aloje el repositorio.
 
 ## Notebooks del módulo
 
@@ -21,7 +21,7 @@ Los notebooks están alojados en GitHub y pueden abrirse directamente en Google 
 
 Conceptos de programación científica, fundamentos de Python, entornos virtuales, Conda, contenedores, Docker, Git, GitHub y uso de Google Colab.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/m8-herramientas-data-science/blob/main/M8_8.19_21/M8_8.19_21_Programacion_entornos_git.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8-herramientas-data-science/blob/main/M8_8.19_21/M8_8.19_21_Programacion_entornos_git.ipynb)
 
 [Ver el notebook en GitHub](M8_8.19_21/M8_8.19_21_Programacion_entornos_git.ipynb)
 
@@ -29,7 +29,7 @@ Conceptos de programación científica, fundamentos de Python, entornos virtuale
 
 Introducción a arrays y operaciones numéricas, importación de datos desde CSV y Excel, consulta de la misma información desde SQLite, manipulación de datos con pandas y visualización científica con Matplotlib.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/m8-herramientas-data-science/blob/main/M8_8.22_24/M8_8.22_24_NumPy_pandas_Matplotlib.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8-herramientas-data-science/blob/main/M8_8.22_24/M8_8.22_24_NumPy_pandas_Matplotlib.ipynb)
 
 [Ver el notebook en GitHub](M8_8.22_24/M8_8.22_24_NumPy_pandas_Matplotlib.ipynb)
 
@@ -37,7 +37,7 @@ Introducción a arrays y operaciones numéricas, importación de datos desde CSV
 
 Organización de datos, bases de datos relacionales y NoSQL, creación y consulta de SQLite, estadística descriptiva, control de calidad, comparación entre grupos, correlación y dependencia espacial y temporal.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/m8-herramientas-data-science/blob/main/M8_8.25_27/M8_8.25_27_Datos_estadistica_calidad.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8-herramientas-data-science/blob/main/M8_8.25_27/M8_8.25_27_Datos_estadistica_calidad.ipynb)
 
 [Ver el notebook en GitHub](M8_8.25_27/M8_8.25_27_Datos_estadistica_calidad.ipynb)
 
@@ -45,7 +45,7 @@ Organización de datos, bases de datos relacionales y NoSQL, creación y consult
 
 Conversión de operaciones conocidas en funciones reutilizables, validación de entradas, automatización por pozo o escenario, configuración, rutas portables, gestión de errores y generación reproducible de tablas, figuras y registros.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/m8-herramientas-data-science/blob/main/M8_8.31_33/M8_8.31_33_Funciones_automatizacion_reproducibilidad.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8-herramientas-data-science/blob/main/M8_8.31_33/M8_8.31_33_Funciones_automatizacion_reproducibilidad.ipynb)
 
 [Ver el notebook en GitHub](M8_8.31_33/M8_8.31_33_Funciones_automatizacion_reproducibilidad.ipynb)
 
