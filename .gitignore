@@ -1,0 +1,14 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.pyc
+data/output/tables/*
+!data/output/tables/.gitkeep
+data/output/figures/*
+!data/output/figures/.gitkeep
+data/output/logs/*
+!data/output/logs/.gitkeep
+*.ppt
+*.pptx
+*.pdf
