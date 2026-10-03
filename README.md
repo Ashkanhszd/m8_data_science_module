@@ -1,104 +1,90 @@
 # M8 · Herramientas y Data Science
 
-Repositorio docente para las sesiones de programación, gestión y análisis de datos del **Módulo 8: Herramientas y Data Science**.
+Repositorio docente del **Módulo 8** del *Máster en Hidrogeología y Modelación* de la Universitat de Barcelona (curso 2026–2027). Contiene los notebooks de las sesiones de programación, análisis de datos y automatización, los datos del curso y las soluciones de los ejercicios de clase.
 
-## Cómo utilizar los notebooks
+**No se necesitan conocimientos previos de programación.**
 
-Los notebooks están alojados en GitHub y pueden abrirse directamente en Google Colab, sin necesidad de instalar Python en el ordenador.
+## Cómo empezar (Google Colab)
 
-1. Selecciona el notebook correspondiente a la sesión.
-2. Haz clic en el botón **Open in Colab**.
-3. En Google Colab, selecciona **Archivo → Guardar una copia en Drive** antes de empezar a modificarlo.
-4. Ejecuta las celdas en orden.
-5. Descarga o guarda los resultados que quieras conservar, ya que el almacenamiento temporal de Colab se elimina al finalizar la sesión.
+1. Pulsa el botón **Abrir en Colab** de la sesión del día (tabla inferior). Necesitas una cuenta de Google.
+2. En Colab, guarda tu copia: **Archivo → Guardar una copia en Drive**. Si no lo haces, perderás los cambios al cerrar la pestaña.
+3. Ejecuta la **primera celda de código** (*Preparación del entorno*). Descarga este repositorio con los datos dentro de la sesión de Colab.
+4. Ejecuta las celdas **en orden**, de arriba abajo.
 
+> Colab es un entorno **temporal**: al cerrar la sesión se borran los archivos generados (tablas, figuras…). Descarga lo que quieras conservar.
 
-## Notebooks del módulo
+## Sesiones
 
-### M8_8.19–M8_8.21 · Programación científica, entornos y control de versiones
+| Sesiones | Contenido | Notebook | Soluciones |
+|---|---|---|---|
+| M8_8.19–21 | Programación científica · entornos y reproducibilidad · Git · fundamentos de Python | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.19_21_ashkan_python_basics/M8_8.19_21_Programacion_cientifica_y_Python.ipynb) | [soluciones](soluciones/M8_8.19_21_soluciones.ipynb) |
+| M8_8.22–24 | NumPy · pandas · Matplotlib · caso: ensayo de bombeo (Cooper–Jacob) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.22_24_ashkan_numpy_pandas_matplotlib/M8_8.22_24_NumPy_pandas_Matplotlib.ipynb) | [soluciones](soluciones/M8_8.22_24_soluciones.ipynb) |
+| M8_8.25–27 | Bases de datos y SQL · estadística descriptiva · calidad de datos · correlación y retardos | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.25_27_ashkan_dbs_statistics/M8_8.25_27_Gestion_datos_estadistica_calidad.ipynb) | [soluciones](soluciones/M8_8.25_27_soluciones.ipynb) |
+| M8_8.31–33 | Funciones y módulos · automatización · taller: proyecto reproducible con datos nuevos | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.31_33_ashkan_python_advanced/M8_8.31_33_Funciones_automatizacion_reproducibilidad.ipynb) | [soluciones](soluciones/M8_8.31_33_soluciones.ipynb) |
 
-Conceptos de programación científica, fundamentos de Python, entornos virtuales, Conda, contenedores, Docker, Git, GitHub y uso de Google Colab.
+Las soluciones de cada sesión se publican después de la clase.
 
-![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)
+### Recorrido completo del módulo
 
-[Ver el notebook en GitHub](M8_8.19_21/M8_8.19_21_Programacion_entornos_git.ipynb)
+| Bloque | Profesorado | Herramientas |
+|---|---|---|
+| M8_8.1 · Presentación del módulo | Ashkan Hassanzadeh | — |
+| M8_8.2–9 · Sistemas de información geográfica | Nieves Lantada | QGIS |
+| M8_8.10–15 · Modelización geológica 3D | Gemma Mitjanas | Leapfrog |
+| M8_8.16–18 · Automatización de geoprocesos | Ashkan Hassanzadeh | QGIS Graphical Modeler |
+| **M8_8.19–27 · Python, datos, estadística y calidad** | **Ashkan Hassanzadeh** | **Python (este repositorio)** |
+| M8_8.28–30 · Análisis exploratorio, interpolación y balance hídrico | Víctor Pinilla | Python, WaterpyBal |
+| **M8_8.31–33 · Funciones, automatización y reproducibilidad** | **Ashkan Hassanzadeh** | **Python (este repositorio)** |
+| M8_8.34–36 · Análisis hidrogeológico con Python y modelos numéricos | Teresa Palma y Marc Diviu | Python |
+| M8_8.37–42 · Machine learning aplicado a la hidrogeología | Aitor Iraola | Python |
+| M8_8.43 · Introducción a los modelos de lenguaje | Ashkan Hassanzadeh | — |
 
-### M8_8.22–M8_8.24 · NumPy, pandas y Matplotlib
+## Datos del curso
 
-Introducción a arrays y operaciones numéricas, importación de datos desde CSV y Excel, consulta de la misma información desde SQLite, manipulación de datos con pandas y visualización científica con Matplotlib.
+`data/input/` contiene un conjunto de datos **sintético**: 12 pozos en 3 acuíferos, 2 estaciones meteorológicas, medidas mensuales de 2021 a 2025, análisis químicos, un ensayo de bombeo y una campaña de campo de 2026. Como los datos reales, **contiene errores** que aprenderás a detectar y tratar. Consulta [data/input/README.md](data/input/README.md) y `data/input/diccionario_datos.csv`.
 
-![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)
-
-[Ver el notebook en GitHub](M8_8.22_24/M8_8.22_24_NumPy_pandas_Matplotlib.ipynb)
-
-### M8_8.25–M8_8.27 · Gestión de datos, estadística descriptiva y calidad
-
-Organización de datos, bases de datos relacionales y NoSQL, creación y consulta de SQLite, estadística descriptiva, control de calidad, comparación entre grupos, correlación y dependencia espacial y temporal.
-
-![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)
-
-[Ver el notebook en GitHub](M8_8.25_27/M8_8.25_27_Datos_estadistica_calidad.ipynb)
-
-### M8_8.31–M8_8.33 · Funciones, automatización y reproducibilidad
-
-Conversión de operaciones conocidas en funciones reutilizables, validación de entradas, automatización por pozo o escenario, configuración, rutas portables, gestión de errores y generación reproducible de tablas, figuras y registros.
-
-![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)
-
-[Ver el notebook en GitHub](M8_8.31_33/M8_8.31_33_Funciones_automatizacion_reproducibilidad.ipynb)
+La misma información está en `data/database/hidrogeologia.sqlite` (base de datos SQLite) y en `data/input/datos_hidrogeologicos.xlsx`.
 
 ## Estructura del repositorio
 
 ```text
-m8-herramientas-data-science/
+m8_data_science_module/
 ├── README.md
-├── environment.yml
+├── LICENSE
+├── environment.yml                    entorno Conda (para trabajar en tu ordenador)
 ├── requirements.txt
+├── Guia_instalacion_*.docx            guías de instalación (Anaconda, SQLite y DB Browser)
 ├── data/
-│   ├── input/
-│   │   ├── pozos.csv
-│   │   ├── mediciones.csv
-│   │   └── datos_hidrogeologicos.xlsx
-│   ├── database/
-│   │   └── hidrogeologia.sqlite
-│   └── output/
-│       ├── tables/
-│       ├── figures/
-│       └── logs/
-├── M8_8.1/
-├── M8_8.16_18/
-├── M8_8.19_21/
-├── M8_8.22_24/
-├── M8_8.25_27/
-├── M8_8.28_30_victor/
-├── M8_8.31_33/
-├── M8_8.34_36_marc_tere/
-├── docs/
-└── src/
+│   ├── input/                         datos originales (no se modifican nunca)
+│   ├── database/                      base de datos SQLite
+│   └── output/                        resultados generados por los notebooks
+├── M8_8.19_21_ashkan_python_basics/
+├── M8_8.22_24_ashkan_numpy_pandas_matplotlib/
+├── M8_8.25_27_ashkan_dbs_statistics/
+├── M8_8.31_33_ashkan_python_advanced/
+└── soluciones/
 ```
 
-## Datos docentes
+## Trabajar en tu propio ordenador (opcional)
 
-Los archivos siguientes contienen las mismas dos tablas lógicas en formatos diferentes:
+Colab es suficiente para todas las sesiones. Si prefieres trabajar en local:
 
-- `data/input/pozos.csv`
-- `data/input/mediciones.csv`
-- `data/input/datos_hidrogeologicos.xlsx`
-- `data/database/hidrogeologia.sqlite`
+```bash
+git clone https://github.com/Ashkanhszd/m8_data_science_module.git
+cd m8_data_science_module
+conda env create --file environment.yml
+conda activate modulo8
+jupyter lab
+```
 
-Las tablas representan:
+Las guías de instalación del repositorio explican estos pasos con detalle para Windows.
 
-- **pozos**: información relativamente estable de cada punto de control;
-- **mediciones**: observaciones mensuales asociadas a los pozos.
+## Uso de asistentes de IA
 
+Se permite usar asistentes de IA (por ejemplo, Gemini en Colab) para **entender** código y mensajes de error. En los ejercicios de clase, inténtalo primero por tu cuenta. Debes poder explicar cada línea de cualquier código que entregues, y comprobar siempre lo que te dice el asistente con la documentación oficial.
 
+## Licencia
 
-## Trabajo en Google Colab
+Material docente bajo licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es); código bajo licencia MIT. Ver [LICENSE](LICENSE).
 
-Cuando un notebook se abre desde GitHub, Google Colab ejecuta una copia editable. Los cambios no modifican automáticamente el notebook original del repositorio.
-
-Para conservar el trabajo:
-
-- utiliza **Archivo → Guardar una copia en Drive**;
-- o descarga el notebook mediante **Archivo → Descargar → Descargar .ipynb**;
-- descarga también cualquier tabla o figura generada que quieras conservar.
+Contacto: Ashkan Hassanzadeh · a.hassanzadeh@csic.es

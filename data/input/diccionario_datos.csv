@@ -1,0 +1,33 @@
+tabla,columna,descripcion,unidad,tipo,notas
+estaciones,id_estacion,Identificador de la estación meteorológica,-,texto,Clave primaria
+estaciones,nombre,Nombre de la estación,-,texto,
+estaciones,x_utm,Coordenada X,m,decimal,ETRS89 / UTM 31N (EPSG:25831)
+estaciones,y_utm,Coordenada Y,m,decimal,ETRS89 / UTM 31N (EPSG:25831)
+estaciones,cota_m,Altitud de la estación,m s.n.m.,decimal,
+pozos,id_pozo,Identificador del pozo,-,texto,Clave primaria
+pozos,acuifero,Acuífero captado,-,texto,"Aluvial, Carbonatado o Detritico"
+pozos,x_utm,Coordenada X,m,decimal,ETRS89 / UTM 31N (EPSG:25831)
+pozos,y_utm,Coordenada Y,m,decimal,ETRS89 / UTM 31N (EPSG:25831)
+pozos,cota_terreno_m,Cota del terreno en la boca del pozo,m s.n.m.,decimal,
+pozos,profundidad_pozo_m,Profundidad total construida del pozo,m,decimal,Medida desde la superficie
+pozos,uso,Uso principal del pozo,-,texto,"control, abastecimiento o riego"
+pozos,id_estacion,Estación meteorológica de referencia,-,texto,Clave foránea → estaciones
+precipitacion,id_estacion,Estación,-,texto,Clave foránea → estaciones
+precipitacion,fecha,Mes de la observación (día 1),-,fecha AAAA-MM-DD,Total mensual
+precipitacion,precipitacion_mm,Precipitación total del mes,mm,decimal,
+mediciones,id_pozo,Pozo medido,-,texto,Clave foránea → pozos
+mediciones,fecha,Fecha de la medida (día 1 de cada mes),-,fecha AAAA-MM-DD,Una medida mensual por pozo
+mediciones,profundidad_nivel_m,Profundidad del nivel del agua desde la superficie,m,decimal,Valores mayores = nivel más bajo
+mediciones,conductividad_uScm,Conductividad eléctrica a 25 °C,µS/cm,decimal,Medida de campo
+hidroquimica,id_pozo,Pozo muestreado,-,texto,Clave foránea → pozos
+hidroquimica,fecha,Fecha de la campaña,-,fecha AAAA-MM-DD,Primavera y otoño
+hidroquimica,Ca_mgL,Calcio,mg/L,decimal,
+hidroquimica,Mg_mgL,Magnesio,mg/L,decimal,
+hidroquimica,Na_mgL,Sodio,mg/L,decimal,
+hidroquimica,K_mgL,Potasio,mg/L,decimal,
+hidroquimica,HCO3_mgL,Bicarbonato,mg/L,decimal,
+hidroquimica,Cl_mgL,Cloruro,mg/L,decimal,
+hidroquimica,SO4_mgL,Sulfato,mg/L,decimal,
+hidroquimica,NO3_mgL,Nitrato,mg/L,texto/decimal,Límite de detección 0.5 mg/L ('<0.5')
+ensayo_bombeo_P02,tiempo_min,Tiempo desde el inicio del bombeo,min,entero,Pozo bombeado P02; Q = 12 L/s constante
+ensayo_bombeo_P02,descenso_m,Descenso en el piezómetro de observación,m,decimal,Piezómetro a r = 25 m del pozo P02

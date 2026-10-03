@@ -1,14 +1,38 @@
+# --- Python / Jupyter ---
 __pycache__/
 .ipynb_checkpoints/
-.DS_Store
-.env
 *.pyc
-data/output/tables/*
-!data/output/tables/.gitkeep
-data/output/figures/*
-!data/output/figures/.gitkeep
-data/output/logs/*
-!data/output/logs/.gitkeep
+.env
+
+# --- Sistema y temporales ---
+.DS_Store
+**/.DS_Store
+**/~$*
+*.tmp
+*.log
+
+# --- Documentación interna del profesorado (no se publica) ---
+*guion_docente*.docx
+m8_revised_*.docx
+teacher_overview_*.docx
+review/
+validation/
+obsidian_Module 8/
+revised_2026_final/
+
+# --- Presentaciones (se distribuyen por el Campus Virtual) ---
 *.ppt
 *.pptx
 *.pdf
+
+# --- Resultados regenerables ---
+data/output/**
+!data/output/.gitkeep
+!data/output/tables/.gitkeep
+!data/output/figures/.gitkeep
+!data/output/logs/.gitkeep
+
+# --- Material del profesorado y trabajo del alumnado ---
+docente/
+mi_proyecto/
+mi_proyecto_entrega.zip
