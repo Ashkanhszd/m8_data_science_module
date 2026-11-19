@@ -36,3 +36,20 @@ data/output/**
 docente/
 mi_proyecto/
 mi_proyecto_entrega.zip
+
+# --- Publicación por sesiones: solo se publica la sesión en curso ---
+# Para publicar una sesión, borra (o comenta) su línea y haz commit.
+# Sesiones ya impartidas (material en el Campus Virtual)
+M8_8.1/
+M8_8.16_18_qgis_batch_graphical_modeller/
+# Sesiones futuras
+M8_8.22_24_ashkan_numpy_pandas_matplotlib/
+M8_8.25_27_ashkan_dbs_statistics/
+M8_8.28_30_victor_EDA_PCA_waterpybal/
+M8_8.31_33_ashkan_python_advanced/
+M8_8.34_36_marc_tere/
+# Soluciones: se publican después de cada clase
+soluciones/M8_8.19_21_soluciones.ipynb
+soluciones/M8_8.22_24_soluciones.ipynb
+soluciones/M8_8.25_27_soluciones.ipynb
+soluciones/M8_8.31_33_soluciones.ipynb

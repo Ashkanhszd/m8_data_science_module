@@ -17,12 +17,9 @@ Repositorio docente del **Módulo 8** del *Máster en Hidrogeología y Modelaci�
 
 | Sesiones | Contenido | Notebook | Soluciones |
 |---|---|---|---|
-| M8_8.19–21 | Programación científica · entornos y reproducibilidad · Git · fundamentos de Python | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.19_21_ashkan_python_basics/M8_8.19_21_Programacion_cientifica_y_Python.ipynb) | [soluciones](soluciones/M8_8.19_21_soluciones.ipynb) |
-| M8_8.22–24 | NumPy · pandas · Matplotlib · caso: ensayo de bombeo (Cooper–Jacob) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.22_24_ashkan_numpy_pandas_matplotlib/M8_8.22_24_NumPy_pandas_Matplotlib.ipynb) | [soluciones](soluciones/M8_8.22_24_soluciones.ipynb) |
-| M8_8.25–27 | Bases de datos y SQL · estadística descriptiva · calidad de datos · correlación y retardos | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.25_27_ashkan_dbs_statistics/M8_8.25_27_Gestion_datos_estadistica_calidad.ipynb) | [soluciones](soluciones/M8_8.25_27_soluciones.ipynb) |
-| M8_8.31–33 | Funciones y módulos · automatización · taller: proyecto reproducible con datos nuevos | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.31_33_ashkan_python_advanced/M8_8.31_33_Funciones_automatizacion_reproducibilidad.ipynb) | [soluciones](soluciones/M8_8.31_33_soluciones.ipynb) |
+| M8_8.19–21 | Programación científica · entornos y reproducibilidad · Git · fundamentos de Python | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ashkanhszd/m8_data_science_module/blob/main/M8_8.19_21_ashkan_python_basics/M8_8.19_21_Programacion_cientifica_y_Python.ipynb) | tras la clase |
 
-Las soluciones de cada sesión se publican después de la clase.
+Las sesiones siguientes y las soluciones se publican a medida que avanza el curso.
 
 ### Recorrido completo del módulo
 
@@ -59,10 +56,7 @@ m8_data_science_module/
 │   ├── database/                      base de datos SQLite
 │   └── output/                        resultados generados por los notebooks
 ├── M8_8.19_21_ashkan_python_basics/
-├── M8_8.22_24_ashkan_numpy_pandas_matplotlib/
-├── M8_8.25_27_ashkan_dbs_statistics/
-├── M8_8.31_33_ashkan_python_advanced/
-└── soluciones/
+└── soluciones/                        (se irán añadiendo tras cada clase)
 ```
 
 ## Trabajar en tu propio ordenador (opcional)
